@@ -1,6 +1,6 @@
 {
   "name": "sanity-plugin-sgntech-interview",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Interview blocks for Sanity Studio — question and answer pairs with speakers, timestamps and a note when an answer was translated.",
   "keywords": [
     "sanity",
@@ -47,7 +47,8 @@
     "watch": "pkg-utils watch --strict"
   },
   "dependencies": {
-    "@sanity/icons": "^5.2.1"
+    "@sanity/icons": "^5.2.1",
+    "@sanity/ui": "^3.5.1"
   },
   "devDependencies": {
     "@sanity/browserslist-config": "^1.0.5",
